@@ -8,7 +8,7 @@
   "page_blueprint": "campaign-mosaic",
   "language": "fr",
   "country": "FR",
-  "url": null,
+  "url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
   "expected_url": "https://outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb.onrender.com",
   "created": "2026-05-22T03:24:40.224426+00:00",
   "owner_user_id": "user-1774822953462",
@@ -16,7 +16,7 @@
   "owner_display_name": "Administrator",
   "provider_space_id": "provider-space",
   "provider_space_name": "Provider space",
-  "status": "failed",
+  "status": "ready",
   "run_id": "run-1779420140546",
   "external_site_request_id": null,
   "external_client_ref": null,
@@ -25,14 +25,56 @@
   "publish_target": "render",
   "mode": "production",
   "github": {
-    "status": "pending"
+    "status": "published",
+    "repo_name": "outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
+    "repo_url": "https://github.com/usonaf/outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
+    "updated_at": 1779466687
   },
   "deployment": {
-    "status": "failed"
+    "status": "ready",
+    "provider": "render",
+    "service_id": "srv-d8884d7avr4c73e3krm0",
+    "project_name": "outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
+    "requested_project_name": null,
+    "deployment_id": "dep-d8884dfavr4c73e3ks80",
+    "deployment_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
+    "public_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
+    "expected_public_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
+    "dashboard_url": "https://dashboard.render.com/static/srv-d8884d7avr4c73e3krm0",
+    "ready_state": "live",
+    "target": "production",
+    "updated_at": 1779466711
   },
   "qa": {
-    "status": "failed",
-    "detail": "POST https://api.render.com/v1/services failed with 403: forbidden"
+    "status": "pass",
+    "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+    "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+    "mode": "native-form",
+    "headline": "Votre itinéraire optimisé est prêt !",
+    "primary_url": "",
+    "desktop": {
+      "status": "pass",
+      "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+      "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+      "viewport": "desktop",
+      "mode": "native-form",
+      "headline": "Votre itinéraire optimisé est prêt !",
+      "primary_url": "",
+      "reported_viewport": "desktop",
+      "updated_at": 1779466665
+    },
+    "mobile": {
+      "status": "pass",
+      "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+      "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+      "viewport": "mobile",
+      "mode": "native-form",
+      "headline": "Votre itinéraire optimisé est prêt !",
+      "primary_url": "",
+      "reported_viewport": "mobile",
+      "updated_at": 1779466666
+    },
+    "updated_at": 1779466666
   },
   "features": [
     "Hero pattern: split",
@@ -43,7 +85,5 @@
     "Runtime mode: analysis_tool",
     "Generation mode: direct_html",
     "Artifact rendered, awaiting QA and deployment"
-  ],
-  "failure_reason": "POST https://api.render.com/v1/services failed with 403: forbidden",
-  "failed_at": "2026-05-22T03:25:24.392509+00:00"
+  ]
 }
