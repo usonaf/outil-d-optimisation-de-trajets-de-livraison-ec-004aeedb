@@ -28,7 +28,7 @@
     "status": "published",
     "repo_name": "outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
     "repo_url": "https://github.com/usonaf/outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
-    "updated_at": 1779466687
+    "updated_at": 1779466970
   },
   "deployment": {
     "status": "ready",
@@ -36,45 +36,47 @@
     "service_id": "srv-d8884d7avr4c73e3krm0",
     "project_name": "outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
     "requested_project_name": null,
-    "deployment_id": "dep-d8884dfavr4c73e3ks80",
+    "deployment_id": "dep-d8886jv7f7vs73e63nmg",
     "deployment_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
     "public_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
     "expected_public_url": "https://outil-d-optimisation-de-trajets-de.onrender.com",
     "dashboard_url": "https://dashboard.render.com/static/srv-d8884d7avr4c73e3krm0",
     "ready_state": "live",
     "target": "production",
-    "updated_at": 1779466711
+    "updated_at": 1779466988
   },
   "qa": {
     "status": "pass",
     "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
-    "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+    "target_url": "http://127.0.0.1:46517/index.html?__qa=functional",
     "mode": "native-form",
     "headline": "Votre itinéraire optimisé est prêt !",
     "primary_url": "",
     "desktop": {
       "status": "pass",
       "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-      "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+      "target_url": "http://127.0.0.1:46517/index.html?__qa=functional",
       "viewport": "desktop",
       "mode": "native-form",
       "headline": "Votre itinéraire optimisé est prêt !",
       "primary_url": "",
       "reported_viewport": "desktop",
-      "updated_at": 1779466665
+      "attempt": 1,
+      "updated_at": 1779466954
     },
     "mobile": {
       "status": "pass",
       "detail": "Le formulaire natif a mis a jour la zone de resultat.",
-      "target_url": "http://127.0.0.1:34001/index.html?__qa=functional",
+      "target_url": "http://127.0.0.1:46517/index.html?__qa=functional",
       "viewport": "mobile",
       "mode": "native-form",
       "headline": "Votre itinéraire optimisé est prêt !",
       "primary_url": "",
       "reported_viewport": "mobile",
-      "updated_at": 1779466666
+      "attempt": 1,
+      "updated_at": 1779466955
     },
-    "updated_at": 1779466666
+    "updated_at": 1779466955
   },
   "features": [
     "Hero pattern: split",
