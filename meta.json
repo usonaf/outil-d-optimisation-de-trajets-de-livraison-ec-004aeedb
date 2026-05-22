@@ -1,0 +1,46 @@
+{
+  "name": "Outil d'Optimisation de Trajets de Livraison Éco-responsables",
+  "description": "Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de transport verts.",
+  "theme": "tool",
+  "design_theme": "solarpunk-signal",
+  "structure_preset": "split-command",
+  "render_direction": "studio-split",
+  "page_blueprint": "campaign-mosaic",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb.onrender.com",
+  "created": "2026-05-22T03:24:40.224426+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "provider_space_id": "provider-space",
+  "provider_space_name": "Provider space",
+  "status": "generated",
+  "run_id": "run-1779420140546",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: split",
+    "Proof module: metrics",
+    "Design theme: Solarpunk Signal",
+    "Render direction: Studio Split",
+    "Page blueprint: Campaign Mosaic",
+    "Runtime mode: analysis_tool",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
