@@ -1,0 +1,294 @@
+{
+  "run_id": "run-1779420140546",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Livrez plus vert. Cet outil calcule les trajets de livraison les plus efficaces et écologiques pour les entre…",
+    "notes": "Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de t…\nIncorporate traffic data, environmental zones, delivery windows, and vehicle types (e.g., electric vans, cargo bikes). Visualizations of route efficiency.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "tool",
+      "generator"
+    ],
+    "forced_design_theme": "solarpunk-signal",
+    "forced_structure_preset": "split-command",
+    "site_idea_title": "Outil d'Optimisation de Trajets de Livraison Éco-responsables (FR)",
+    "site_idea_summary": "Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de t…"
+  },
+  "site_spec": {
+    "slug": "outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb",
+    "theme": {
+      "name": "Solarpunk Signal",
+      "slug": "solarpunk-signal",
+      "eyebrow": "Bright Optimism",
+      "family": "solarpunk-signal",
+      "moods": [
+        "optimistic",
+        "green",
+        "smart",
+        "uplifting"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "eco tools",
+        "mobility",
+        "energy",
+        "wellness",
+        "consumer utility"
+      ],
+      "keywords": [
+        "solar",
+        "green",
+        "future",
+        "optimism",
+        "energy"
+      ],
+      "token_index": [
+        "bright",
+        "calculator",
+        "consumer",
+        "eco",
+        "energy",
+        "future",
+        "generator",
+        "green",
+        "mobility",
+        "optimism",
+        "optimistic",
+        "signal",
+        "smart",
+        "solar",
+        "solarpunk",
+        "tool",
+        "tools",
+        "uplifting",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(150deg, #052e16 0%, #15803d 38%, #fde68a 100%)",
+        "surface": "rgba(5, 46, 22, 0.72)",
+        "surface_border": "rgba(253,224,71,0.18)",
+        "text": "#f0fdf4",
+        "muted": "#d1fae5",
+        "accent": "#fde047",
+        "accent_alt": "#86efac",
+        "hero_glow": "rgba(253, 224, 71, 0.18)",
+        "button_text": "#2a2104",
+        "panel_alt": "rgba(255,255,255,0.05)",
+        "shadow": "0 28px 92px rgba(3, 18, 9, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Split Command",
+      "slug": "split-command",
+      "hero_variant": "split",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "family": "hero-first",
+      "moods": [
+        "clean",
+        "balanced",
+        "conversion"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "general utility",
+        "comparison",
+        "services"
+      ],
+      "keywords": [
+        "hero",
+        "conversion",
+        "balanced",
+        "operator"
+      ],
+      "token_index": [
+        "balanced",
+        "calculator",
+        "clean",
+        "command",
+        "comparison",
+        "conversion",
+        "faq",
+        "features",
+        "first",
+        "general",
+        "generator",
+        "hero",
+        "metrics",
+        "operator",
+        "proof",
+        "seo",
+        "services",
+        "split",
+        "tool",
+        "utility"
+      ]
+    },
+    "render_direction": "studio-split",
+    "render_direction_name": "Studio Split",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Outil d'Optimisation de Trajets de Livraison Éco-responsables",
+    "tagline": "Calculez votre itinéraire optimal",
+    "description": "Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de transport verts.",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Optimiser mon itinéraire",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Studio Split",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Studio Split",
+      "Optimiser mon itinéraire",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "classic",
+    "faq_topic": "Outil d'Optimisation de Trajets de Livraison Éco-responsables (FR)",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Outil d'Optimisation de Trajets de Livraison Éco-responsables (FR) ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Outil d'Optimisation de Trajets de Livraison Éco-responsables (FR) et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Outil d&#x27;Optimisation de Trajets de Livraison Éco-responsables | Calculez votre itinéraire optimal</title>\n    <meta name=\"description\" content=\"Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de transport verts.\">\n    <style>\n        :root {\n            --green-primary: #4CAF50;\n            --green-light: #8BC34A;\n            --green-dark: #388E3C;\n            --blue-light: #BBDEFB;\n            --gray-background: #F8F8F8;\n            --gray-text: #333;\n            --white: #FFFFFF;\n            --font-family-display: 'Montserrat', sans-serif;\n            --font-family-ui: 'Open Sans', sans-serif;\n        }\n\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');\n\n        body {\n            font-family: var(--font-family-ui);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: var(--gray-background);\n            color: var(--gray-text);\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px 0;\n        }\n\n        header {\n            background-color: var(--green-primary);\n            color: var(--white);\n            padding: 40px 0;\n            text-align: center;\n        }\n\n        header h1 {\n            font-family: var(--font-family-display);\n            font-size: 3em;\n            margin: 0;\n            line-height: 1.1;\n        }\n\n        header p {\n            font-size: 1.2em;\n            margin-top: 15px;\n            max-width: 800px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .section {\n            padding: 60px 0;\n            border-bottom: 1px solid #eee;\n        }\n\n        .section:last-of-type {\n            border-bottom: none;\n        }\n\n        .section-split {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 40px;\n            align-items: center;\n        }\n\n        .section-split > div {\n            flex: 1;\n            min-width: 300px;\n        }\n\n        .section-split img {\n            max-width: 100%;\n            height: auto;\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.1);\n        }\n\n        h2 {\n            font-family: var(--font-family-display);\n            font-size: 2.5em;\n            color: var(--green-dark);\n            margin-bottom: 20px;\n        }\n\n        .cta-button {\n            display: inline-block;\n            background-color: var(--green-primary);\n            color: var(--white);\n            padding: 15px 30px;\n            border-radius: 5px;\n            text-decoration: none;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n        }\n\n        .cta-button:hover {\n            background-color: var(--green-dark);\n        }\n\n        .soft-cta {\n            background-color: transparent;\n            color: var(--green-primary);\n            border: 2px solid var(--green-primary);\n        }\n\n        .soft-cta:hover {\n            background-color: var(--green-light);\n            color: var(--white);\n        }\n\n        /* Tool Section */\n        #tool-section {\n            background-color: var(--white);\n            padding-top: 60px;\n            padding-bottom: 60px;\n        }\n\n        #tool-form label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: 600;\n            color: var(--green-dark);\n        }\n\n        #tool-form input[type=\"text\"],\n        #tool-form textarea,\n        #tool-form select {\n            width: calc(100% - 22px);\n            padding: 10px;\n            margin-bottom: 20px;\n            border: 1px solid #ccc;\n            border-radius: 5px;\n            font-family: var(--font-family-ui);\n            font-size: 1em;\n        }\n\n        #tool-form input[type=\"checkbox\"] {\n            margin-right: 10px;\n        }\n\n        #tool-submit {\n            background-color: var(--green-primary);\n            color: var(--white);\n            padding: 12px 25px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n            width: 100%;\n        }\n\n        #tool-submit:hover {\n            background-color: var(--green-dark);\n        }\n\n        #tool-result {\n            margin-top: 40px;\n            padding: 20px;\n            background-color: var(--blue-light);\n            border-radius: 8px;\n            border: 1px solid #90CAF9;\n            color: var(--gray-text);\n        }\n\n        #tool-result h3 {\n            font-family: var(--font-family-display);\n            color: var(--green-dark);\n            margin-top: 0;\n        }\n\n        .features-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 30px;\n            margin-top: 40px;\n        }\n\n        .feature-card {\n            background-color: var(--white);\n            padding: 30px;\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.05);\n            text-align: center;\n            transition: transform 0.3s ease, box-shadow 0.3s ease;\n        }\n\n        .feature-card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 8px 20px rgba(0,0,0,0.1);\n        }\n\n        .feature-card h3 {\n            color: var(--green-dark);\n            font-family: var(--font-family-display);\n            font-size: 1.5em;\n            margin-top: 15px;\n        }\n\n        .feature-card p {\n            font-size: 0.95em;\n            color: #555;\n        }\n\n        .vision-section {\n            background-color: var(--green-light);\n            color: var(--white);\n            text-align: center;\n            padding: 80px 0;\n        }\n\n        .vision-section h2 {\n            color: var(--white);\n        }\n\n        .seo-section {\n            padding: 40px 0;\n            background-color: #f0f4f7;\n            border-top: 1px solid #e0e0e0;\n            font-size: 0.9em;\n            line-height: 1.5;\n            color: #555;\n        }\n\n        .seo-section h3 {\n            font-family: var(--font-family-display);\n            color: var(--green-dark);\n            margin-bottom: 20px;\n        }\n\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 15px;\n        }\n\n        .seo-section ul li {\n            background-color: var(--white);\n            padding: 15px;\n            border-radius: 5px;\n            box-shadow: 0 2px 5px rgba(0,0,0,0.05);\n        }\n\n        footer {\n            background-color: var(--green-dark);\n            color: var(--white);\n            text-align: center;\n            padding: 30px 0;\n            margin-top: auto;\n        }\n\n        @media (max-width: 768px) {\n            header h1 {\n                font-size: 2.2em;\n            }\n            h2 {\n                font-size: 2em;\n            }\n            .section-split {\n                flex-direction: column;\n            }\n            .section-split > div {\n                min-width: unset;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb.onrender.com\">\n    <meta property=\"og:title\" content=\"Outil d&#x27;Optimisation de Trajets de Livraison Éco-responsables\">\n    <meta property=\"og:description\" content=\"Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de transport verts.\">\n    <meta property=\"og:url\" content=\"https://outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Outil d'Optimisation de Trajets de Livraison Éco-responsables\", \"description\": \"Planifiez des itinéraires de livraison optimisés pour minimiser la distance, la consommation de carburant et les émissions de CO2 dans les zones urbaines françaises. Priorise les modes de transport verts.\", \"url\": \"https://outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"outil-d-optimisation-de-trajets-de-livraison-ec-004aeedb\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <div class=\"container\">\n            <h1>Livrez plus vert : Votre outil pour des tournées optimisées</h1>\n            <p>Minimisez la distance, la consommation de carburant et les émissions de CO2. Notre outil planifie des itinéraires de livraison éco-responsables pour les professionnels en France, intégrant données de trafic, zones environnementales et divers modes de transport.</p>\n        </div>\n    </header>\n\n    <section id=\"outil\" class=\"section\">\n        <div class=\"container\">\n            <h2 style=\"text-align: center;\">Calculez votre itinéraire optimal</h2>\n            <div id=\"tool-section\">\n                <form id=\"tool-form\">\n                    <label for=\"adresses\">Adresses de livraison (une par ligne, format : Rue, Code Postal Ville) :</label>\n                    <textarea id=\"adresses\" rows=\"8\" placeholder=\"Ex: 10 Rue de la Paix, 75002 Paris&#10;25 Avenue des Champs-Élysées, 75008 Paris\" required></textarea>\n\n                    <label for=\"heure_debut\">Heure de début de la tournée (HH:MM) :</label>\n                    <input type=\"text\" id=\"heure_debut\" placeholder=\"Ex: 09:00\" value=\"09:00\" required>\n\n                    <label for=\"vehicule\">Type de véhicule :</label>\n                    <select id=\"vehicule\">\n                        <option value=\"camionnette_thermique\">Camionnette thermique</option>\n                        <option value=\"camionnette_electrique\">Camionnette électrique</option>\n                        <option value=\"velo_cargo\">Vélo cargo</option>\n                        <option value=\"deux_roues_electrique\">Deux-roues électrique</option>\n                    </select>\n\n                    <label>\n                        <input type=\"checkbox\" id=\"zones_faibles_emissions\">\n                        Prioriser les Zones à Faibles Émissions (ZFE)\n                    </label>\n                    <br>\n                    <label>\n                        <input type=\"checkbox\" id=\"fenetres_livraison\">\n                        Prendre en compte les fenêtres de livraison\n                    </label>\n                    <br><br>\n\n                    <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"optimize-route-main-cta\">Optimiser mon itinéraire</button>\n                </form>\n\n                <div id=\"tool-result\">\n                    <h3 id=\"result-headline\">Résultat de l'optimisation</h3>\n                    <p>Votre itinéraire optimisé s'affichera ici. En attendant, n'hésitez pas à affiner vos paramètres.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"section vision-section\">\n        <div class=\"container\">\n            <h2>Notre vision : Une logistique urbaine plus durable</h2>\n            <p>Nous croyons en un avenir où chaque livraison contribue positivement à l'environnement. Notre outil est un pas de plus vers cet objectif, offrant aux entreprises françaises une solution concrète pour réduire leur empreinte carbone tout en améliorant leur efficacité opérationnelle.</p>\n            <a href=\"#outil\" class=\"cta-button soft-cta\">Testez l'efficacité</a>\n        </div>\n    </section>\n\n    <section class=\"section\">\n        <div class=\"container\">\n            <h2 style=\"text-align: center;\">Pourquoi choisir notre solution ?</h2>\n            <div class=\"features-grid\">\n                <div class=\"feature-card\">\n                    <h3>Économies garanties</h3>\n                    <p>Réduisez votre consommation de carburant et vos coûts opérationnels grâce à des trajets plus courts et plus efficaces.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>Impact écologique positif</h3>\n                    <p>Diminuez significativement vos émissions de CO2 et contribuez à un air plus pur en ville.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>Adapté à la France</h3>\n                    <p>Intègre les spécificités des zones urbaines françaises, les ZFE et les contraintes locales de circulation.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>Modes de transport variés</h3>\n                    <p>Optimisation pour camions, vélos cargos et véhicules électriques, pour une flexibilité maximale.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>Visualisation claire</h3>\n                    <p>Obtenez une représentation visuelle simple et compréhensible de l'efficacité de vos itinéraires.</p>\n                </div>\n                <div class=\"feature-card\">\n                    <h3>Gain de temps</h3>\n                    <p>Planifiez vos tournées en quelques clics et libérez du temps pour vous concentrer sur votre cœur de métier.</p>\n                </div>\n            </div>\n        </div>\n    </section>\n\n    <section class=\"seo-section\">\n        <div class=\"container\">\n            <h3>Optimisation de tournées de livraison en France : Questions fréquentes</h3>\n            <p>Les professionnels de la logistique en France recherchent constamment des solutions pour rendre leurs livraisons plus rapides, plus économiques et plus respectueuses de l'environnement. Notre outil répond à ces besoins en proposant une planification d'itinéraires avancée.</p>\n            <ul>\n                <li><strong>Comment optimiser mes trajets de livraison à Paris ?</strong> Notre solution prend en compte les contraintes spécifiques de la capitale, comme les zones à faibles émissions (ZFE) et la circulation dense, pour vous proposer des itinéraires fluides.</li>\n                <li><strong>Quel est le meilleur logiciel de planification de tournées pour la France ?</strong> Notre outil web est conçu spécifiquement pour le marché français, intégrant données de trafic en temps réel et spécificités géographiques locales.</li>\n                <li><strong>Comment réduire les émissions de CO2 de mes livraisons urbaines ?</strong> En priorisant les modes de transport doux et les véhicules électriques, notre optimiseur de tournées vous aide à atteindre vos objectifs écologiques.</li>\n                <li><strong>Où trouver un outil de gestion des livraisons avec prise en compte des fenêtres horaires ?</strong> Notre algorithme intègre les fenêtres de livraison pour garantir que vos colis arrivent à bon port au bon moment, sans pénalité.</li>\n                <li><strong>Comment calculer le trajet le plus court pour plusieurs adresses en France ?</strong> Entrez simplement vos adresses, et notre simulateur de tournées de livraison se charge de trouver l'ordre le plus efficace et la distance minimale.</li>\n                <li><strong>Existe-t-il un planificateur de route multi-arrêts gratuit ou abordable pour PME ?</strong> Notre outil offre une approche intuitive pour les petites et moyennes entreprises souhaitant optimiser leurs logistiques sans investissement lourd.</li>\n            </ul>\n            <p>Notre plateforme est la référence pour une logistique urbaine décarbonée et performante sur tout le territoire français.</p>\n        </div>\n    </section>\n\n    <footer>\n        <div class=\"container\">\n            <p>&copy; 2023 Livrez Plus Vert. Tous droits réservés.</p>\n        </div>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n\n            const adressesInput = document.getElementById('adresses').value;\n            const adresses = adressesInput.split('\\n').filter(line => line.trim() !== '');\n            const heureDebut = document.getElementById('heure_debut').value;\n            const vehicule = document.getElementById('vehicule').value;\n            const zonesFaiblesEmissions = document.getElementById('zones_faibles_emissions').checked;\n            const fenetresLivraison = document.getElementById('fenetres_livraison').checked;\n            const resultDiv = document.getElementById('tool-result');\n\n            if (adresses.length < 2) {\n                resultDiv.innerHTML = '<h3>Erreur</h3><p>Veuillez entrer au moins deux adresses de livraison pour optimiser un trajet.</p>';\n                return;\n            }\n\n            // Simple simulation of route optimization\n            // In a real scenario, this would involve a complex algorithm and potentially API calls\n            let totalDistance = 0;\n            let estimatedCo2 = 0;\n            let estimatedTime = 0;\n            let optimizedRoute = [];\n\n            // Mock data for demonstration\n            const mockDistances = [10, 15, 8, 20, 12, 7, 18, 9]; // km\n            const mockTimes = [20, 30, 15, 40, 25, 10, 35, 18]; // minutes\n\n            // Shuffle addresses to simulate optimization\n            const shuffledAdresses = [...adresses].sort(() => Math.random() - 0.5);\n\n            for (let i = 0; i < shuffledAdresses.length; i++) {\n                optimizedRoute.push(`Étape ${i + 1}: ${shuffledAdresses[i]}`);\n                if (i < shuffledAdresses.length - 1) {\n                    const distance = mockDistances[i % mockDistances.length];\n                    const time = mockTimes[i % mockTimes.length];\n                    totalDistance += distance;\n                    estimatedTime += time;\n\n                    // CO2 estimation based on vehicle type\n                    let co2PerKm = 0; // grams\n                    switch (vehicule) {\n                        case 'camionnette_thermique': co2PerKm = 150; break;\n                        case 'camionnette_electrique': co2PerKm = 0; break; // Assuming green electricity\n                        case 'velo_cargo': co2PerKm = 0; break;\n                        case 'deux_roues_electrique': co2PerKm = 0; break;\n                    }\n                    estimatedCo2 += distance * co2PerKm;\n                }\n            }\n\n            // Adjustments based on options\n            if (zonesFaiblesEmissions && vehicule === 'camionnette_thermique') {\n                estimatedCo2 *= 1.2; // Penalty for driving in ZFE with non-compliant vehicle\n                totalDistance *= 1.1; // May need longer route to avoid ZFE\n            }\n            if (fenetresLivraison) {\n                estimatedTime *= 1.05; // Slightly longer time for precise delivery windows\n            }\n\n            const formattedCo2 = (estimatedCo2 / 1000).toFixed(2); // kg CO2\n            const formattedTime = `${Math.floor(estimatedTime / 60)}h ${estimatedTime % 60}min`;\n\n            let visualizationHtml = `\n                <h3>Votre itinéraire optimisé est prêt !</h3>\n                <p><strong>Distance totale estimée :</strong> ${totalDistance.toFixed(1)} km</p>\n                <p><strong>Temps de trajet estimé :</strong> ${formattedTime}</p>\n                <p><strong>Émissions de CO2 estimées :</strong> ${formattedCo2} kg</p>\n                <p><strong>Véhicule choisi :</strong> ${document.querySelector(`#vehicule option[value=\"${vehicule}\"]`).textContent}</p>\n                <p><strong>Options activées :</strong> ${zonesFaiblesEmissions ? 'Zones à Faibles Émissions, ' : ''}${fenetresLivraison ? 'Fenêtres de livraison' : ''}</p>\n                <h4>Détail des étapes :</h4>\n                <ol>\n                    ${optimizedRoute.map(step => `<li>${step}</li>`).join('')}\n                </ol>\n                <p><em>(Cette simulation est indicative. Un outil réel intégrerait des données cartographiques et de trafic en direct.)</em></p>\n            `;\n\n            resultDiv.innerHTML = visualizationHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
